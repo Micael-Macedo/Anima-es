@@ -80,6 +80,9 @@
 }
 .battery .batteryBody .energy {
   animation: battery 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
 }
 .battery .batteryTip {
   width: 5%;

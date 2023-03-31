@@ -64,6 +64,9 @@
         padding: 1%;
         .energy{
             animation: battery 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
 
         }
 
