@@ -1,0 +1,76 @@
+@keyframes animacao {
+  from {
+    background-color: black;
+    width: 500px;
+  }
+  to {
+    background-color: aqua;
+    width: 800px;
+  }
+}
+@keyframes animacao2 {
+  0% {
+    background-color: black;
+    width: 500px;
+  }
+  20% {
+    background-color: aqua;
+    width: 800px;
+  }
+  50% {
+    background-color: aquamarine;
+    width: 300px;
+  }
+  70% {
+    background-color: bisque;
+    width: 900px;
+  }
+  100% {
+    background-color: red;
+    width: 1200px;
+  }
+}
+@keyframes battery {
+  0% {
+    background-color: red;
+    width: 0%;
+  }
+  20% {
+    background-color: red;
+    width: 20%;
+  }
+  40% {
+    background-color: yellow;
+    width: 40%;
+  }
+  60% {
+    background-color: yellowgreen;
+    width: 60%;
+  }
+  80% {
+    background-color: green;
+    width: 80%;
+  }
+  100% {
+    background-color: darkgreen;
+    width: 100%;
+  }
+}
+@keyframes heading {
+  from {
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateX(200px);
+    transform: translateY(200px);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=animations.css.map */

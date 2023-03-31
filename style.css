@@ -62,6 +62,24 @@
     width: 100%;
   }
 }
+@keyframes heading {
+  from {
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateX(200px);
+    transform: translateY(200px);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .battery {
   width: 80vw;
   height: 30vh;
@@ -111,4 +129,36 @@
   animation-duration: 10s;
   animation-delay: 2s;
   animation-iteration-count: infinite;
+}
+
+.heading {
+  width: 500px;
+  height: 500px;
+}
+
+.heading1 {
+  animation: heading;
+  animation-duration: 2s;
+  animation-direction: reverse;
+}
+
+.animation.spinLeft {
+  animation: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform-origin: left;
+}
+
+.animation.spinRight {
+  animation: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform-origin: right;
+}
+
+.animation.spinCenter {
+  animation: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform-origin: center;
 }/*# sourceMappingURL=style.css.map */
