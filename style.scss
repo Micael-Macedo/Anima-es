@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@keyframes animacao {
+    from{
+        background-color: black; width: 500px;
+    }
+    to{
+        background-color: aqua; width: 800px;
+    }
+}
+@keyframes animacao2 {
+    0%{
+        background-color: black; width: 500px;
+    }
+    20%{
+        background-color: aqua; width: 800px;
+    }
+    50%{
+        background-color: aquamarine; width: 300px;
+    }
+    70%{
+        background-color: bisque; width: 900px;
+    }
+    100%{
+        background-color: red; width: 1200px;
+    }
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    animation: animacao;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+}
+.container2{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    animation: animacao2;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
